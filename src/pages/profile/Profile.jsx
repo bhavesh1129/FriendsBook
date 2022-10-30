@@ -40,30 +40,28 @@ const Profile = () => {
             <a href="http://facebook.com">
               <LinkedInIcon fontSize="large" />
             </a>
-            <a href="http://facebook.com">
-              <PinterestIcon fontSize="large" />
-            </a>
+
           </div>
           <div className="center">
             <span>Jane Doe</span>
             <div className="info">
               <div className="item">
-                <PlaceIcon />
+                <PlaceIcon fontSize="large" />
                 <span>USA</span>
               </div>
-              <div className="item">
-                <LanguageIcon />
+              <div className="item" style={{ paddingLeft: 10 }}>
+                <LanguageIcon fontSize="large" />
                 <span>bhaveshgarg.live</span>
               </div>
             </div>
             <button>Follow</button>
           </div>
           <div className="right">
-            <EmailOutlinedIcon />
-            <MoreVertIcon />
+            <EmailOutlinedIcon fontSize="large" />
+            <MoreVertIcon fontSize="large" />
           </div>
         </div>
-      <Posts/>
+        <Posts />
       </div>
     </div>
   );
